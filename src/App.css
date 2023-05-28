@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --nav-color: #131921;
+}
+.nav{
+  background-color: var(--nav-color);
+  color: white;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  position: static;
+  height: 60px;
+}
+.App-logo{
+  min-width: 20vw;
+  height: 20vh;
+}
